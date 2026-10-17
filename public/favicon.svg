@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Cake Base / Stand Plate -->
+  <ellipse cx="32" cy="56" rx="26" ry="4" fill="#EAD9C9" />
+  <ellipse cx="32" cy="54" rx="24" ry="3.5" fill="#FFFDF9" stroke="#E0CEBC" stroke-width="1.5" />
+  
+  <!-- Bottom Cake Tier -->
+  <path d="M14 38C14 38 18 43 32 43C46 43 50 38 50 38V48C50 51 42 53 32 53C22 53 14 51 14 48V38Z" fill="#FCEBD6" />
+  <!-- Bottom frosting strawberry layer -->
+  <path d="M14 44C17 46 22 47 32 47C42 47 47 46 50 44V48C50 51 42 53 32 53C22 53 14 51 14 48V44Z" fill="#F5A5B8" />
+
+  <!-- Mid Cake Tier -->
+  <path d="M18 24C18 24 22 28 32 28C42 28 46 24 46 24V38C46 41 40 43 32 43C24 43 18 41 18 38V24Z" fill="#FFE7A3" />
+  
+  <!-- Drips of Raspberry / Strawberry glaze -->
+  <path d="M18 25C20 28 22 26 24 29C26 31 28 27 30 29C32 31 34 26 36 29C38 31 40 27 42 29C44 26 46 27 46 25V24C46 21 40 19 32 19C24 19 18 21 18 24V25Z" fill="#C9365B" />
+
+  <!-- Cream Frosting Top swirl -->
+  <ellipse cx="32" cy="20" rx="14" ry="4" fill="#FFFDF9" stroke="#F5A5B8" stroke-width="1.5" />
+  <path d="M26 18C28 12 36 12 38 18C36 14 30 14 26 18Z" fill="#FFFDF9" stroke="#F5A5B8" stroke-width="1.5" />
+  
+  <!-- Strawberry / Cherry on Top -->
+  <circle cx="32" cy="12" r="5" fill="#C9365B" />
+  <path d="M32 7C34 5 36 4 38 5" stroke="#55853B" stroke-width="2" stroke-linecap="round" />
+  <ellipse cx="30.5" cy="10.5" rx="1" ry="1.5" fill="#FFF" opacity="0.6" />
+</svg>

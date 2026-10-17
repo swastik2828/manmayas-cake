@@ -1,0 +1,44 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Cakes catalogue: CRUD enabled
+    match /cakes/{cakeId} {
+      allow read, write: if true;
+    }
+
+    // Cake categories
+    match /cakeCategories/{categoryId} {
+      allow read, write: if true;
+    }
+
+    // Gallery images
+    match /galleryImages/{imageId} {
+      allow read, write: if true;
+    }
+
+    // Site settings (announcements, contact info, store status)
+    match /siteSettings/{settingId} {
+      allow read, write: if true;
+    }
+
+    // Enquiries / Custom cake orders: Public creation & Admin review/management
+    match /enquiries/{enquiryId} {
+      allow read, write: if true;
+    }
+
+    // Customer & Guestbook reviews
+    match /reviews/{reviewId} {
+      allow read, write: if true;
+    }
+
+    // Admin profiles & logs
+    match /adminProfiles/{adminUid} {
+      allow read, write: if true;
+    }
+
+    match /auditLogs/{logId} {
+      allow read, write: if true;
+    }
+  }
+}
